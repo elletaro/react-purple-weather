@@ -4,13 +4,28 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      <header>
-        <h1>
-      Weather app
-      </h1>
-      </header>
+      <div className="container">
+        <Weather defaultCity="Pretoria" />
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/elletaro"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Chantelle Dlamini{" "}
+          </a>{" "}
+          and is hosted on{" "}
+          <a
+            href="https://purple-hyacinth-cloud.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
 
